@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <form>
+        <input type="search" name="q" placeholder="Nome" /><br />
+        <input type="email" name="email" placeholder="E-mail" /><br />
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" /><br />
+        <input type="number" name="idade" placeholder="Idade" /><br />
+        <input type="url" name="linkedin" placeholder="LinkedIn URL" />
+        Urgência <input type="range" name="urgencia" min="0" max="100" step="0.1" /> <br><br>
+        <input type="checkbox" name="dia-da-semana" value="2" /> Segunda-Feira <br>
+        <input type="checkbox" name="dia-da-semana" value="4" /> Quarta-Feira <br>
+        <input type="checkbox" name="dia-da-semana" value="6" /> Sexta-Feira <br>
+        <input type="radio" name="horario" value="manha" /> Manhã <br>
+        <input type="radio" name="horario" value="tarde" /> Tarde <br>
+        <input type="radio" name="horario" value="noite" /> Noite <br><br>
+        <textarea cols="60" rows="10"></textarea> <br><br>
+        Cidade: <input list="cidade" name="cidade" />
+        <datalist id="cidade">
+            <option value="Blumenau">Blumenau</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Joinville">Joinville</option>
+        </datalist> <br><br>
+        <button type="button">Outra Ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</body>
+
+</html>
